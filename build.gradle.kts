@@ -11,6 +11,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.bytedeco:javacv:1.5.8")
+    implementation("org.bytedeco:ffmpeg-platform:5.1.2-1.5.8")
     testImplementation(kotlin("test"))
 }
 
